@@ -14,6 +14,12 @@ On Ubuntu, these are as follows:
 sudo apt-get install -y texlive texlive-latex-extra latexmk texlive-fonts-extra
 ```
 
+Lint:
+
+```bash
+chktex MichaelWadman_CV.tex
+```
+
 Next, simply generate the PDF using `pdflatex`:
 
 ```bash

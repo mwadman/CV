@@ -4,19 +4,19 @@
 \textcolor{CustomRed}{\textsc{\position}}\\
 \vspace{1mm}
 { \fontseries{l}\selectfont \small
-    \ifdefined\phone
+    \ifdefined\phone{}
         \href{tel:\phone}{\hspace{0.05cm} \faMobile* \hspace{0.05cm} \phone} \hspace{0.2mm} |
     \fi
-    \ifdefined\email
+    \ifdefined\email{}
         \href{mailto:\email}{\hspace{0.05cm} \faEnvelope \hspace{0.05cm} \email} \hspace{0.2mm} |
     \fi
-    \ifdefined\website
+    \ifdefined\website{}
         \href{https://\website}{\hspace{0.05cm} \faRss \hspace{0.05cm} \website} \hspace{0.2mm} |
     \fi
-    \ifdefined\github
+    \ifdefined\github{}
         \href{https://github.com/\github}{\hspace{0.05cm} \faGithub \hspace{0.05cm} \github } \hspace{0.2mm} |
     \fi
-    \ifdefined\gitlab
+    \ifdefined\gitlab{}
         \href{https://gitlab.com/\gitlab}{\hspace{0.05cm} \faGitlab \hspace{0.05cm} \gitlab } \hspace{0.2mm}
     \fi
 } \\
