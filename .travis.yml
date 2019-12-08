@@ -1,0 +1,7 @@
+cache:
+    - apt
+before_install:
+    - sudo apt-get update -qq
+    - sudo apt-get install -y texlive texlive-latex-extra latexmk texlive-fonts-extra
+script:
+    - pdflatex MichaelWadman_CV.tex
