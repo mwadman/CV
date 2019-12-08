@@ -71,6 +71,11 @@
 \newcommand{\sectionstyle}[1]{%
     {\noindent \fontseries{c}\selectfont \LARGE #1} \hrulefill{} \vspace{2mm}
 }
+\newcommand{\iconandinfostyle}[3]{%
+    \ifdefined#1{}
+        \href{#2#1}{\hspace{0.05cm} #3 \hspace{0.05cm} {\fontseries{l}\selectfont \small #1 }} \hspace{0.2mm}
+    \fi
+}
 \newcommand{\bulletedlist}[1]{%
     \fontseries{l}\selectfont \small
     \begin{itemize}
