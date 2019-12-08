@@ -12,7 +12,7 @@
 
 % Page Geometry (Size, Margins)
 \usepackage{geometry}
-    \geometry{
+    \geometry{%
     a4paper, % Sets paper sizing to A4. Can also be set to 'letterpaper'.
     top=20mm, % Sets top margin
     bottom=20mm, % Sets bottom margin
@@ -31,7 +31,7 @@
 
 % Hyperlinks
 \usepackage[bookmarks=false]{hyperref} % Disables bookmarks when opened in PDF viewer. Needs to be set in \usepackage for some reason
-    \hypersetup{
+    \hypersetup{%
     colorlinks=false, % Do not color links
     pdftitle={PDF Title}, % As shown when opened in PDF viewer
 }
@@ -68,30 +68,30 @@
 \newcommand{\gitlab}{mwadman}
 
 % Commands
-\newcommand{\sectionstyle}[1]{
+\newcommand{\sectionstyle}[1]{%
     {\noindent \fontseries{c}\selectfont \LARGE #1} \hrulefill{} \vspace{2mm}
 }
-\newcommand{\bulletedlist}[1]{
+\newcommand{\bulletedlist}[1]{%
     \fontseries{l}\selectfont \small
     \begin{itemize}
     \itemsep0em
     #1
     \end{itemize}
 }
-\newcommand{\nonbulletedlist}[1]{
+\newcommand{\nonbulletedlist}[1]{%
     \fontseries{l}\selectfont \small
     \begin{itemize}[label={}]
     \itemsep0em
     #1
     \end{itemize}
 }
-\newcommand{\employerandlocation}[2]{
+\newcommand{\employerandlocation}[2]{%
     {\textbf{#1} \hfill {\fontseries{l}\selectfont \textcolor{CustomRed}{\textit{#2}}}}\\
 }
-\newcommand{\positionanddates}[2]{
+\newcommand{\positionanddates}[2]{%
     \fontseries{l}\selectfont \textsc{#1} \hfill {\fontseries{t}\selectfont \small \textit{#2}}
 }
-\newcommand{\yearacheivementdescription}[4]{
+\newcommand{\yearacheivementdescription}[4]{%
     #1 \hspace{10mm} \textbf{#2} \hspace{0.2mm} #3 \textit{#4}
 }
 

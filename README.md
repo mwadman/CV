@@ -14,9 +14,10 @@ On Ubuntu, these are as follows:
 sudo apt-get install -y texlive texlive-latex-extra latexmk texlive-fonts-extra
 ```
 
-Lint:
+Syntax Check/Lint:
 
 ```bash
+lacheck MichaelWadman_CV.tex
 chktex MichaelWadman_CV.tex
 ```
 
