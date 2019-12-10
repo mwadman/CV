@@ -25,5 +25,4 @@ Next, simply generate the PDF using `pdflatex`:
 pdflatex MichaelWadman_CV.tex
 ```
 
-If generating this for an application, remember to change (and uncomment) the `\phone` variable.
-
+If generating this for an application submission, remember to change (and uncomment) the `\phone` variable.
