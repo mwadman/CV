@@ -9,7 +9,7 @@ First, install the required packages.
 On Ubuntu, these are as follows:
 
 ```bash
-sudo apt-get install -y texlive texlive-latex-extra latexmk texlive-fonts-extra
+sudo apt-get install -y texlive texlive-latex-extra latexmk texlive-fonts-extra lacheck chktex
 ```
 
 Syntax Check/Lint:
