@@ -5,21 +5,28 @@ A LaTeX cheat sheet that I wrote can be found [in my Gists](https://gist.github.
 
 ## To Build
 
-First, install the required packages.  
-On Ubuntu, these are as follows:
+### Required Packages
+
+#### Ubuntu/Debian
 
 ```bash
 sudo apt-get install -y texlive texlive-latex-extra latexmk texlive-fonts-extra lacheck chktex
 ```
 
-Syntax Check/Lint:
+#### Arch
+
+```bash
+sudo pacman -Syu texlive-core texlive-latexextra texlive-fontsextra
+```
+
+### Syntax Check/Lint
 
 ```bash
 lacheck MichaelWadman_CV.tex
 chktex MichaelWadman_CV.tex
 ```
 
-Next, simply generate the PDF using `pdflatex`:
+### Generate PDF
 
 ```bash
 pdflatex MichaelWadman_CV.tex
