@@ -30,6 +30,8 @@ chktex MichaelWadman_CV.tex
 
 ```bash
 pdflatex MichaelWadman_CV.tex
+# Or, to check then generate together:
+lacheck MichaelWadman_CV.tex && chktex MichaelWadman_CV.tex && pdflatex MichaelWadman_CV.tex
 ```
 
 If generating this for an application submission, remember to change (and uncomment) the `\phone` variable.
