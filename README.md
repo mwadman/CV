@@ -10,13 +10,13 @@ A LaTeX cheat sheet that I wrote can be found [in my Gists](https://gist.github.
 #### Ubuntu/Debian
 
 ```bash
-sudo apt-get install -y texlive texlive-latex-extra latexmk texlive-fonts-extra lacheck chktex
+sudo apt-get install -y texlive texlive-latex-extra latexmk texlive-fonts-extra lacheck chktex latexmk
 ```
 
 #### Arch
 
 ```bash
-sudo pacman -Syu texlive-core texlive-latexextra texlive-fontsextra
+sudo pacman -Syu texlive-core texlive-latexextra texlive-fontsextra texlive-binextra
 ```
 
 ### Syntax Check/Lint
