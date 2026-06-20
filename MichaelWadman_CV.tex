@@ -71,8 +71,14 @@
 \newcommand{\sectionstyle}[1]{%
     {\noindent \fontseries{m}\selectfont \LARGE #1} \hrulefill{} \vspace{2mm}
 }
+\newif\iffirsticon{}
 \newcommand{\iconandinfostyle}[3]{%
     \ifdefined#1
+        \iffirsticon{}
+            \global\firsticonfalse{}
+        \else
+             |
+        \fi
         \href{#2#1}{\hspace{0.05cm} #3 \hspace{0.05cm} {\fontseries{l}\selectfont \small #1 }} \hspace{0.2mm}
     \fi
 }
